@@ -1,0 +1,250 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: nunito-black;
+    src: url(/fonts/Nunito-Black.ttf);
+  }
+
+@font-face {
+    font-family: nunito-bold;
+    src: url(/fonts/Nunito-Bold.ttf);
+  }
+  
+@font-face {
+    font-family: nunito-extrabold;
+    src: url(/fonts/Nunito-ExtraBold.ttf);
+  }
+
+@font-face {
+    font-family: nunito-extralight;
+    src: url(/fonts/Nunito-ExtraLight.ttf);
+  }
+
+@font-face {
+    font-family: nunito-light;
+    src: url(/fonts/Nunito-Light.ttf);
+  }
+  
+@font-face {
+    font-family: nunito-medium;
+    src: url(/fonts/Nunito-Medium.ttf);
+  }
+
+ @font-face {
+    font-family: nunito-regular;
+    src: url(/fonts/Nunito-Regular.ttf);
+  }
+
+ @font-face {
+
+    font-family: nunito-semibold;
+    src: url(/fonts/Nunito-SemiBold.ttf);
+
+  }
+
+
+#title-page
+  {
+      font-family: nunito-extrabold;
+      font-size: 25px;
+      color: #ecc19c;
+      margin-right: auto;
+      margin-left: 50px;
+      margin-top: 25px;
+  }
+
+#title-page a
+{
+    font-family: nunito-extrabold;
+      font-size: 30px;
+      color: #ecc19c;
+      text-decoration: none;
+}
+
+#title-page a:hover
+{
+
+      color: #1e847f;
+      transition: all 0.3s ease 0s;
+
+}
+
+
+#title-cart
+{
+    color: #ecc19c;
+    font-family: nunito-bold;
+    margin-top: 20px;
+    text-align: center;
+} 
+
+.row-info
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 40px;
+    font-family: nunito-bold;
+    color: #3d3d3d;
+}
+
+.row-info li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 60px 0 45px;
+    margin-right: 93px;
+    margin-top: 25px;
+}
+
+#description
+{
+    margin-right: auto;
+    margin-left: 195px;
+    margin-top: 25px;
+}
+
+#cart-line{
+
+    width: 90%;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 50%;
+}
+
+/**** INITIAL HIDE OF ELEMENTS */
+
+
+.product-info {
+  display: flex;
+  align-items: center;
+  margin-left: 13%;
+  margin-top: 3%;
+
+}
+
+#productName{
+
+  font-family: nunito-medium;
+  color: #3d3d3d;
+  position: absolute;
+}
+
+#incrementButton{
+
+  margin-left: 580px;
+  background-color: #1e847f;
+  color: #ffffff;
+  border: none;
+  width: 39px;
+  height: 31px;
+  font-size: 16px;
+  font-family: nunito-extrabold;
+  border: 1px solid #000000;
+
+}
+
+#decrementButton:hover, #removeButton:hover, .removeButton:hover{
+
+
+  cursor: pointer;
+  background-color: #e8e6e6;
+  transition: all 0.3s ease 0s;
+
+}
+
+#incrementButton:hover{
+
+  cursor: pointer;
+  background-color: #33b8b1;
+  transition: all 0.3s ease 0s;
+
+}
+#quantityContainer{
+
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000000;
+    font-family: nunito-light;
+    width: 39px;
+    height: 29.5px;
+    background-color: #ffffff;
+    margin-left: 1px;
+}
+
+#quantityContainer p{
+
+  text-align: center;
+  font-size: 12px;
+  font-family: nunito-light;
+  
+}
+
+#decrementButton{
+
+  margin-left: 1px;
+  border: none;
+  width: 39px;
+  height: 31px;
+  font-size: 16px;
+  font-family: nunito-extrabold;
+  background-color: #F3F2F2;
+  border: 1px solid #000000;
+}
+
+#removeButton, .removeButton {
+
+margin-left: 14%;
+border: none;
+width: 39px;
+height: 32px;
+font-size: 12px;
+font-family: nunito-light;
+background-color: #ffffff;
+border: 1px solid #000000;
+
+}
+
+
+#priceProduct{
+
+margin-left: 190px;
+font-family: nunito-medium;
+}
+
+
+.showZoro, .showLuffy, .showSanji, .showGarp, .showBorsalino, .showAokiji, .showMihawk, .showDoflamingo, .showBoa{
+  display: none;
+}
+
+
+
+.checkout-button
+{
+
+  margin-top: 25px; /* Adjust this margin to align with the price */
+  margin-left: 85%;
+  display: none;
+}
+
+
+#checkout-button
+{
+    width: 130px;
+    height: 40px;
+    border-radius: 50px;
+    font-family: nunito-bold;
+    background-color: #eaeaea;
+    border: 0;
+    color:#3d3d3d;
+    font-size: 18px;    
+}
+
+#checkout-button:hover
+{
+    cursor:pointer;
+    background-color: #c7c0c0; 
+    transition: all 0.3s ease 0s;
+}
